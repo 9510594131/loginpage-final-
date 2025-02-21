@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const User = require('./models/userModels');
+const User = require('./userModels');
 
 const app = express();
 
